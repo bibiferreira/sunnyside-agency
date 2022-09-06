@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
 <body>
@@ -21,52 +22,104 @@
       </nav>
       <div class="hero">
         <h1>WE ARE CREATIVES</h1>
-        <!-- <img src="./images/icon-arrow-down.svg" alt="arrow-down"> -->
       </div>
       <img src="./images/icon-arrow-down.svg" alt="arrow-down" id="arrow">
     </header>
+    <section class="gallery gallery-reverse">
+      <div class="info-design">
+        <h2>Transform your brand</h2>
+        <p>We are a full-service creative agency specializing in helping brands grow fast.
+        Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <a href="#">LEARN MORE</a>
+      </div>
+      <div class="design">
+        <img src="./images/desktop/image-transform.jpg">
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="design">
+        <img src="./images/desktop/image-stand-out.jpg">
+      </div>
+      <div class="info-design">
+        <h2>Stand out to the right audience</h2>
+        <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+        <a href="#">LEARN MORE</a>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="image-box" id="box1">
+        <h3>Graphic design</h3>
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
+      <div class="image-box" id="box2">
+        <h3>Photography</h3>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+    </section>
+    <div class="testimonial-wrapper">
+      <div class="testimonial-title">
+        <h2>CLIENT TESTIMONIALS</h2>
+      </div>
+      <div class="testimonials-content">
+        <div class="testimonial-client">
+          <img src="./images/image-emily.jpg">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <h3>Emily R.</h3>
+          <h4>Marketing Director</h4>
+        </div>
+        <div class="testimonial-client">
+          <img src="./images/image-thomas.jpg">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <h3>Thomas S.</h3>
+          <h4>Chief Operating Officer</h4>
+        </div>
+        <div class="testimonial-client">
+          <img src="./images/image-jennie.jpg">
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <h3>Jennie F.</h3>
+          <h4>Business Owner</h4>
+        </div>
+      </div>
+    </div>
+    <div class="images-wrap">
+      <div class="image-row">
+        <img src="./images/desktop/image-gallery-milkbottles.jpg">
+      </div>
+      <div class="image-row">
+        <img src="./images/desktop/image-gallery-orange.jpg">
+      </div>
+      <div class="image-row">
+        <img src="./images/desktop/image-gallery-cone.jpg">
+      </div>
+      <div class="image-row">
+        <img src="./images/desktop/image-gallery-sugarcubes.jpg">
+      </div>
+    </div>
   </div>
-  <!-- Transform your brand
-
-  We are a full-service creative agency specializing in helping brands grow fast.
-  Engage your clients through compelling visuals that do most of the marketing for you.
-
-  Learn more
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+  <footer>
+    <div class="logo-footer">
+      <img src="./images/logo-dark.svg">
+    </div>
+    <div class="nav-footer">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Projects</a>
+    </div>
+    <div class="social-media">
+      <a href="https://www.linkedin.com/in/bibi-ferreira/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://twitter.com/iambibiferreira" target="_blank">
+        <i class="fa-brands fa-square-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/bibi_fs/" target="_blank">
+        <i class="fa-brands fa-square-instagram"></i>
+      </a>
+    </div>
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> | Coded by <a href="https://github.com/bibiferreira">Bibi Ferreira</a></p>
+  </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
